@@ -1,6 +1,5 @@
 import { TableFetchData } from "./components/TableFetchData";
 
-
 export const App = () => {
   return (
     <>

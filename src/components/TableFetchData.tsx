@@ -12,7 +12,6 @@ export const TableFetchData = () => {
         }
     }, [areDataToRefetch, fetchData]);
 
-
     return (
         <div>
             <h2>Posts</h2>
