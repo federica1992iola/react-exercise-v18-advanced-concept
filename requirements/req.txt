@@ -1,0 +1,6 @@
+Create a custom hook to handle API requests inside useEffect. The component should:
+
+1. Fetch data from an API (https://jsonplaceholder.typicode.com/posts?_limit=5) when mounted;
+2. Refetch data when a "Refresh" button is clicked (simulating componentDidUpdate);
+3. Cancel the API request if the component unmounts to prevent memory leaks;
+4. extract logic used for fetch data into custom hook.
